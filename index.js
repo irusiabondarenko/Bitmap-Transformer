@@ -10,7 +10,7 @@ var transform = require('./lib/transforms');
 var header = bitmap().toString('utf-8', 0, 2 );
 if (header!='BM') {
 	throw new Error('Its not a valid BMP file');
-}
+};
 
 // Usinf methods for receiving pixels start and pixels end values of image
 var pixelsStart = bitmap().readUInt32LE(10);

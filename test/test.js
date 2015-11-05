@@ -26,7 +26,7 @@ describe('readfile function', function(){
   });
   it('should not be null', function() {
     expect(bitmap).not.to.be.null;
- });
+ })
 });
 
 describe('checks for created file opposite.bmp', function(){
